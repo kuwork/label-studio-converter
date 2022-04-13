@@ -17,12 +17,12 @@ from operator import itemgetter
 from copy import deepcopy
 from PIL import Image
 
-from label_studio_converter.utils import (
+from utils import (
     parse_config, create_tokens_and_tags, download, get_image_size, get_image_size_and_channels, ensure_dir,
     get_polygon_area, get_polygon_bounding_box, _get_annotator
 )
-from label_studio_converter import brush
-from label_studio_converter.audio import convert_to_asr_json_manifest
+import brush
+from audio import convert_to_asr_json_manifest
 
 logger = logging.getLogger(__name__)
 

@@ -4,7 +4,7 @@ import logging
 import json
 
 
-from .utils import get_audio_duration, ensure_dir, download, _get_annotator
+from utils import get_audio_duration, ensure_dir, download, _get_annotator
 
 
 logger = logging.getLogger(__name__)

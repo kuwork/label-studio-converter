@@ -1,0 +1,9 @@
+<!-- {"title": "Bbox object detection", "category": "image", "complexity": "basic"} -->
+<View>
+  <Image name="image" value="$image"/>
+  <RectangleLabels name="label" toName="image">
+    <Label value="tag" background="green"/>
+    <Label value="box" background="red"/>
+    <Label value="core" background="blue"/>
+  </RectangleLabels>
+</View>
